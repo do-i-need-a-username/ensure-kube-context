@@ -5,7 +5,7 @@ for module in "${ENSURE_KUBE_CONTEXT_MODULES[@]}"; do
       command -v kubectl >/dev/null 2>&1 && source "${0:A:h}/ensure-kube-context-kubectl.plugin.zsh"
       ;;
     cilium)
-      command -v cilium >/dev/null 2>&1 && source "${0:A:h}/ensure-kube-context-cillium.plugin.zsh"
+      command -v cilium >/dev/null 2>&1 && source "${0:A:h}/ensure-kube-context-cilium.plugin.zsh"
       ;;
     stern)
       command -v stern >/dev/null 2>&1 && source "${0:A:h}/ensure-kube-context-stern.plugin.zsh"
