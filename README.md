@@ -18,7 +18,7 @@ Open `~/.zshrc` and set `ENSURE_KUBE_CONTEXT_MODULES` to a list of commands you 
 
 ```bash
 # .zshrc
-ENSURE_KUBE_CONTEXT_MODULES=(kubectl cilium stern)
+ENSURE_KUBE_CONTEXT_MODULES=(kubectl cilium stern helm kustomize)
 ```
 
 3. **Enable the plugin:**
