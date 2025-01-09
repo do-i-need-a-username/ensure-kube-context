@@ -9,7 +9,9 @@ A ZSH plugin to ensure the `--context` flag is passed to various Kubernetes comm
 1. **Clone the repository:**
 
 ```bash
-git clone --depth=1 https://github.com/do-i-need-a-username/ensure-kube-context.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/ensure-kube-context
+git clone --depth=1 \
+  https://github.com/do-i-need-a-username/ensure-kube-context.git \
+  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/ensure-kube-context
 ```
 
 2. **Configure your .zshrc:**
